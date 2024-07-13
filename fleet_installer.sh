@@ -10,6 +10,7 @@ cd ..
 paru -S fleet --noconfirm --sudoloop -q
 
 paru_location=$(which paru)
+sudo rm -rf paru
 sudo rm -rf "$paru_location"
 
 fleet_location=$(which fleet)
